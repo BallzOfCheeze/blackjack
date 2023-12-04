@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const apiController = require('../controllers/apiController.js');
+const gameManager = require('../managers/gameManager.js');
 const dealerController = require('../controllers/dealerController.js');
 
 // General API route for checking server status
