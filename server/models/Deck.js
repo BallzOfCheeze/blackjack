@@ -10,7 +10,7 @@ class Deck {
 
         for (let suit of suits) {
             for (let value of values) {
-                this.cards.push({ suit, value });
+                this.cards.push(new Card(suit, value));
             }
         }
     }
